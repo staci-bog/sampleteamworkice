@@ -16,8 +16,21 @@
     <script type="module" src="/src/index.js"></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <include src="./src/partials/header.html"></include>
+    </header>
+    <main>
+        <include src="./src/partials/hero.html"></include>
+        <include src="./src/partials/products.html"></include>
+        <include src="./src/partials/about.html"></include>
+        <include src="./src/partials/advantages.html"></include>
+        <include src="./src/partials/gallery.html"></include>
+        <include src="./src/partials/contacts.html"></include>
+    </main>
+    <footer>
+        <include src="./src/partials/footer.html"></include>
+    </footer>
+    <!--Modal Overlay-->
+    <div class="overlay js-overlay-modal"></div>
 </body>
 </html>
