@@ -1,0 +1,106 @@
+<section id="hero" class="hero">
+    <div class="container">
+      <div class="hero__mainFlex">
+        <div>
+          <h1 class="hero__title">ice cream made with</h1>
+          <span class="hero__title--big">passion</span>
+          <ul class="hero__nav">
+            <li class="hero__nav--first">
+              <a
+                class="button button_products --button-transperent"
+                href="#products"
+                >Products</a
+              >
+            </li>
+            <li class="hero__nav--second">
+              <a class="link_button" href="#about">How it’s made?</a>
+            </li>
+          </ul>
+          <div class="hero__about">
+            <img
+              class="hero__aboutpic"
+              srcset="
+                ./images/hero/manyicecream-tablet.png     152w,
+                ./images/hero/manyicecream-tablet@2x.png  304w,
+                ./images/hero/manyicecream-desktop.png    225w,
+                ./images/hero/manyicecream-desktop@2x.png 450w
+              "
+              sizes="(min-width: 1200px) 225px, (min-width: 768px) 152px"
+              src="./images/hero/manyicecream-tablet.png"
+              alt="icecream"
+            />
+            <div>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+              </p>
+              <button
+                type="button"
+                class="hero__button js-open-modal"
+                data-modal="#"
+              >
+                <svg height="16" width="40">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="hero__data">
+          <ul>
+            <li class="hero__list">
+              <p class="hero__data--qty">16</p>
+              <p class="hero__data--place">cafes</p>
+            </li>
+            <li class="hero__list">
+              <p class="hero__data--qty">23</p>
+              <p class="hero__data--place">food trucks</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <svg class="hero__dots--mob">
+        <use href="./images/icons.svg#dots_mob"></use>
+      </svg>
+      <svg class="hero__dots--tab">
+        <use href="./images/icons.svg#dots_tab"></use>
+      </svg>
+      <svg class="hero__dots--desk">
+        <use href="./images/icons.svg#dots_desk"></use>
+      </svg>
+      <div class="hero__cream">
+        <img
+          class="hero__cream--mob"
+          srcset="
+            /src/images/hero/waffel-mobile.png    177w,
+            /src/images/hero/waffel-mobile@2x.png 354w
+          "
+          sizes="50vw"
+          src="/src/images/hero/waffel-mobile.png"
+          alt="icecream"
+        />
+  
+        <img
+          class="hero__cream--tab"
+          srcset="
+            /src/images/hero/waffel-tablet.png    270w,
+            /src/images/hero/waffel-tablet@2x.png 540w
+          "
+          sizes="270px"
+          src="/src/images/hero/waffel-tablet.png"
+          alt="icecream"
+        />
+  
+        <img
+          class="hero__cream--desk"
+          srcset="
+            /src/images/hero/waffel-desktop.png    460w,
+            /src/images/hero/waffel-desktop@2x.png 920w
+          "
+          sizes="460px"
+          src="/src/images/hero/waffel-desktop.png"
+          alt="icecream"
+        />
+      </div>
+    </div>
+  </section>
